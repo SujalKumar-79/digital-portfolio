@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Kumar | Java Backend Developer</title>
+    <meta name="description"
+        content="Sujal Kumar - Java Backend Developer building secure, production-ready REST APIs with Spring Boot, Spring Security, JWT and MySQL.">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="intro-overlay">
+        <div class="intro-content">
+            <h1 class="intro-name">Sujal Kumar</h1>
+            <p class="intro-role">Java Backend Developer</p>
+        </div>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i class="ri-moon-line"></i>
+    </button>
+
+    <div class="mobile-toggle" id="mobile-toggle">
+        <i class="ri-menu-line"></i>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-section">
+                <div class="profile-img-container">
+                    <img src="assets/images/profile-photo.png" alt="Sujal Kumar" class="profile-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Sujal+Kumar&background=random&color=fff'">
+                </div>
+                <h1 class="name">Sujal Kumar</h1>
+                <p class="role">Java Backend Developer</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/SujalKumar-79" target="_blank" title="GitHub"><i
+                            class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/sujal-yadav-linked-in" target="_blank" title="LinkedIn"><i
+                            class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://leetcode.com/u/SujalYadav_790/" target="_blank" rel="noopener" title="LeetCode"><i
+                            class="ri-code-s-slash-fill"></i></a>
+                    <a href="mailto:sujalkumar66965@gmail.com" title="Email"><i class="ri-mail-send-fill"></i></a>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active"><i class="ri-home-4-line"></i> Home</a>
+                <a href="#projects" class="nav-link"><i class="ri-stack-line"></i> Projects</a>
+                <a href="#technical" class="nav-link"><i class="ri-code-s-slash-line"></i> Technical Skills</a>
+                <a href="#about" class="nav-link"><i class="ri-user-3-line"></i> About</a>
+                <a href="#education" class="nav-link"><i class="ri-book-2-line"></i> Education</a>
+                <a href="#certifications" class="nav-link"><i class="ri-award-line"></i> Certifications</a>
+                <a href="#achievements" class="nav-link"><i class="ri-trophy-line"></i> Achievements</a>
+                <a href="#soft-skills" class="nav-link"><i class="ri-user-heart-line"></i> Soft Skills</a>
+                <a href="#contact" class="nav-link"><i class="ri-mail-line"></i> Contact</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>&copy; 2026 Sujal Kumar</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <section id="home" class="section hero-section">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I am</p>
+                    <h2 class="hero-name">Sujal Kumar</h2>
+                    <h3 class="typing-container">I am a <span id="typing-text"></span><span class="cursor">|</span>
+                    </h3>
+                    <p class="hero-desc">
+                        I am a <strong>Java Backend Developer</strong> who builds secure, well-tested REST APIs with
+                        <strong>Spring Boot</strong>. I have shipped a live system for a real client and I am open to
+                        backend developer opportunities.
+                    </p>
+                    <div class="tags hero-stats">
+                        <span>2 Live Deployments</span>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Work</a>
+                        <a href="assets/Sujal_Kumar-CV.pdf" class="btn btn-secondary" download>Download CV<i
+                                class="ri-download-line"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <i class="ri-graduation-cap-line project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://achieverszone.in" target="_blank" rel="noopener" title="View Live"
+                                    class="live-link"><i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>Achievers Zone - Institute Management System <span class="status-badge">Live · Real
+                                Client</span></h3>
+                        <p>Production REST API with 41 endpoints for a live computer training institute, covering
+                            courses, faculty, batches, students and enquiries. Uses JWT access/refresh tokens with
+                            role-based access, per-account and per-IP rate limiting, Caffeine caching and 75 tests.
+                            Deployed on Railway with automatic GitHub deployments.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Spring Security</span>
+                            <span>JWT</span>
+                            <span>MySQL</span>
+                            <span>Flyway</span>
+                            <span>Testcontainers</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <i class="ri-wallet-3-line project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://rebatehub-nine.vercel.app/" target="_blank" rel="noopener"
+                                    title="View Live" class="live-link"><i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>RebateHub - Cashback Tracking Platform <span class="status-badge">Live · Personal</span>
+                        </h3>
+                        <p>Cashback platform backend with 44 REST endpoints for wallets, store catalog, transactions,
+                            withdrawals and an admin panel. Features dual-token JWT authentication with rotating
+                            refresh tokens, a 9-table MySQL schema and 170 integration tests.
+                            Dockerised on Render with MySQL on Aiven and the frontend on Vercel.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Spring Security</span>
+                            <span>JWT</span>
+                            <span>MySQL</span>
+                            <span>Flyway</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="ri-hospital-line project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/SujalKumar-79/Hospital_Management_System" target="_blank"
+                                    title="View Code"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>Hospital Management System</h3>
+                        <p>A desktop app using Java Swing & AWT allowing patients to book appointments with specific
+                            doctors.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>AWT</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="ri-bank-card-line project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/SujalKumar-79/Java_Project" target="_blank"
+                                    title="View Code"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>ATM Simulator System</h3>
+                        <p>Desktop application built with Java Swing, JDBC, and Multithreading. Simulates real banking
+                            operations.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>JDBC</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="technical" class="section">
+                <h2 class="section-title">Technical Proficiency</h2>
+                <div class="skills-grid">
+                    <div class="skill-category card">
+                        <h3><i class="ri-code-box-line"></i> Languages</h3>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-server-line"></i> Backend & Frameworks</h3>
+                        <div class="tags">
+                            <span>Spring Boot</span>
+                            <span>Spring Security</span>
+                            <span>Spring Data JPA</span>
+                            <span>Hibernate</span>
+                            <span>JWT</span>
+                            <span>REST API Design</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-database-2-line"></i> Databases & Testing</h3>
+                        <div class="tags">
+                            <span>MySQL</span>
+                            <span>Flyway</span>
+                            <span>JUnit 5</span>
+                            <span>Testcontainers</span>
+                            <span>MockMvc</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-tools-fill"></i> Tools & DevOps</h3>
+                        <div class="tags">
+                            <span>Git & GitHub</span>
+                            <span>Maven</span>
+                            <span>Docker</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-cloud-line"></i> Deployment</h3>
+                        <div class="tags">
+                            <span>Railway</span>
+                            <span>Render</span>
+                            <span>Vercel</span>
+                            <span>Aiven</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-node-tree"></i> Core Concepts</h3>
+                        <div class="tags">
+                            <span>OOP</span>
+                            <span>Data Structures & Algorithms</span>
+                            <span>System Design Basics</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="card about-card">
+                    <p>
+                        With a strong academic record <strong>(8.84 CGPA in BCA, 8.44 CGPA so far in MCA)</strong> and a
+                        solid grasp of <strong>OOP</strong>, <strong>data structures</strong> and
+                        <strong>system design basics</strong>, I specialise in backend development with Java and Spring
+                        Boot.
+                    </p>
+                    <p style="margin-top: 1rem;">
+                        Currently pursuing my MCA at LPU, I design REST APIs, secure them with JWT and role-based
+                        access, model MySQL schemas with Flyway migrations, and test them with JUnit and
+                        Testcontainers. I have deployed a live system for a real client
+                        (<strong>achieverszone.in</strong>) and my own cashback platform
+                        (<strong>RebateHub</strong>). I am looking for backend developer roles where I can keep
+                        building reliable, secure services.
+                    </p>
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <h2 class="section-title">Education Timeline</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Master of Computer Applications (MCA) <span class="status-badge">Pursuing</span></h3>
+                            <p class="institution">Lovely Professional University, Punjab</p>
+                            <p class="grade">CGPA: <strong>8.44</strong></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p class="institution">DIT University, Dehradun</p>
+                            <p class="grade">CGPA: <strong>8.84</strong></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary (12th)</h3>
+                            <p class="institution">AN Inter College, Dumka</p>
+                            <p class="grade">Score: <strong>75.6%</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certifications" class="section">
+                <h2 class="section-title">Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="ri-leaf-line"></i>
+                        <span>Industry-Ready Java Spring Boot: Cloud, and Spring AI
+                            <span class="status-badge">Ongoing</span>
+                            <small>Udemy</small>
+                        </span>
+                    </div>
+                    <a href="assets/certificates/brain-mentors-java-dsa.pdf" target="_blank" class="cert-item">
+                        <i class="ri-code-s-slash-line"></i> Brain Mentors Java + DSA
+                    </a>
+                    <a href="assets/certificates/brain-mentors-java-fundamentals.pdf" target="_blank"
+                        class="cert-item">
+                        <i class="ri-cup-line"></i> Brain Mentors Java Fundamentals
+                    </a>
+                </div>
+            </section>
+
+            <section id="achievements" class="section">
+                <h2 class="section-title">Achievements</h2>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="ri-trophy-line"></i>
+                        <span>Reliance Foundation Undergraduate Scholarship (₹1.5 Lakhs)
+                            <small>National merit scholarship based on academic performance and an aptitude test ·
+                                2022 - 2025</small>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="soft-skills" class="section">
+                <h2 class="section-title">Soft Skills & Leadership</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-user-heart-line"></i> Emotional Intelligence</h3>
+                        <p class="skill-description">
+                            Maintains composure and high team morale during setbacks. I approach challenges with a
+                            resilient, solution-focused mindset and gratitude.
+                        </p>
+                        <div class="tags">
+                            <span>Resilience</span>
+                            <span>Adaptability</span>
+                            <span>Conflict Resolution</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-lightbulb-flash-line"></i> Strategic Problem Solving</h3>
+                        <p class="skill-description">
+                            Thrives in high-pressure environments by implementing creative, agile solutions to complex
+                            technical hurdles without panic.
+                        </p>
+                        <div class="tags">
+                            <span>Critical Thinking</span>
+                            <span>Crisis Management</span>
+                            <span>Innovation</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category card">
+                        <h3><i class="ri-chat-smile-line"></i> Communication Skills</h3>
+                        <p class="skill-description">
+                            Explains technical ideas clearly to both technical and non-technical people, in writing,
+                            in discussions and while presenting.
+                        </p>
+                        <div class="tags">
+                            <span>Articulation</span>
+                            <span>Active Listening</span>
+                            <span>Public Speaking</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit"
+                        method="POST">
+                        <input type="hidden" name="access_key" value="0aac2ed6-ee2d-4ea3-b2c2-4719c1c45c96">
+                        <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1"
+                            autocomplete="off">
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="How can I help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-status"></p>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="mobile-footer">
+                <p>&copy; 2026 Sujal Kumar</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
